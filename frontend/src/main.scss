@@ -1,0 +1,30 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  .nav-content-center {
+    display: flex;
+    column-gap: 10px;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
